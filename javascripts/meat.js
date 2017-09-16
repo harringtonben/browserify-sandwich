@@ -2,7 +2,7 @@
 
 const jsonMeat = require("./data");
 
-const meats = jsonMeat.getMeats();
+const meats = jsonMeat.gimmeMeats();
 let sandwichMeats = [];
 
 const getMeats = function() {
@@ -27,4 +27,4 @@ const resetSandwichMeats = function() {
 	sandwichMeats = [];
 };
 
-module.exports = getMeats;
+module.exports = {getMeats, addMeatToSandwich, resetSandwichMeats};

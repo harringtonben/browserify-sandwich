@@ -2,7 +2,7 @@
 	
 const jsonBreads = require("./data.js");
 
-let breads = jsonBreads.getBreads();
+let breads = jsonBreads.gimmeBreads();
 let sandwichBreads = [];
 
 const getBreads = () => {
@@ -10,7 +10,6 @@ const getBreads = () => {
 };
 
 const addBreadToSandwich = (event) => {
-	console.log(event);
 	if (event.target.parentNode.childNodes[1].childNodes[3].checked === true) {
 		sandwichBreads.push(breads[0]);
 	} if (event.target.parentNode.childNodes[1].childNodes[7].checked === true) {
@@ -28,5 +27,5 @@ const resetSandwichBreads = () => {
 
 
 
-module.exports = getBreads;
+module.exports = {getBreads, addBreadToSandwich, resetSandwichBreads};
 

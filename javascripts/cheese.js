@@ -2,7 +2,7 @@
 
 const jsonCheese = require("./data");
 
-let cheeses = jsonCheese.getCheeses();
+let cheeses = jsonCheese.gimmeCheeses();
 let sandwichCheeses = [];
 
 const getCheeses = function() {
@@ -25,4 +25,4 @@ const resetSandwichCheeses = function() {
 	sandwichCheeses = [];
 };
 
-module.exports = getCheeses;
+module.exports = {getCheeses, addCheeseToSandwich, resetSandwichCheeses};

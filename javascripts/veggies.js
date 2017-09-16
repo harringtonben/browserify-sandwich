@@ -1,6 +1,7 @@
 "use strict";
 
-const veggies = [{ingredient: "Lettuce", price: 0.50},{ingredient: "pickles", price: 0.50},{ingredient: "Tomato", price: 0.50}, {ingredient: "Onions", price: 0.50}, {ingredient: "Veggies are for losers", price: 0}];
+const jsonVeggies = require("./data");
+const veggies = jsonVeggies.gimmeVeggies();
 	let sandwichVeggies = [];
 	
 const getVeggies = function() {
@@ -23,4 +24,4 @@ const resetSandwichVeggies = function() {
 	sandwichVeggies = [];
 };
 
-module.exports = getVeggies;
+module.exports = {getVeggies, addVeggieToSandwich, resetSandwichVeggies};

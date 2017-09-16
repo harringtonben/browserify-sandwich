@@ -2,7 +2,7 @@
 
 const jsonCondiments = require("./data");
 
-const condiments = jsonCondiments.getCondiments();
+let condiments = jsonCondiments.gimmeCondiments();
 let sandwichCondiments = [];
 
 const getCondiments = function() {
@@ -25,4 +25,4 @@ const resetSandwichCondiments = function() {
 	sandwichCondiments = [];
 };
 
-module.exports = getCondiments;
+module.exports = {getCondiments, addCondimentToSandwich, resetSandwichCondiments};
