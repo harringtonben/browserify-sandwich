@@ -1,0 +1,20 @@
+{
+	"bread": [
+		{
+		"ingredient": "White Bread", 
+		"price": 1.99
+		},
+		{
+		"ingredient": "Wheat Bread",
+		"price": 1.99
+		},
+		{
+		"ingredient": "Garlic Bread", 
+		"price": 2.99
+		},
+		{
+		"ingredient": "Parmesean Bread",
+		"price": 2.99
+		}
+	]
+}
