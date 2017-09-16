@@ -1,0 +1,24 @@
+{
+	"veggies": [
+		{
+		"ingredient": "Lettuce", 
+		"price": 0.50
+		},
+		{
+		"ingredient": "Pickles",
+		"price": 0.50
+		},
+		{
+		"ingredient": "Tomato", 
+		"price": 0.50
+		},
+		{
+		"ingredient": "Onions",
+		"price": 0.50
+		},
+		{
+		"ingredient": "Veggies are for losers",
+		"price": 0
+		}
+	]
+}
