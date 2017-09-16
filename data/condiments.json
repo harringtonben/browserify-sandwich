@@ -1,0 +1,24 @@
+{
+	"condiments": [
+		{
+		"ingredient": "mayo", 
+		"price": 0.50
+		},
+		{
+		"ingredient": "Mustard",
+		"price": 0.50
+		},
+		{
+		"ingredient": "Hot Sauce", 
+		"price": 0.50
+		},
+		{
+		"ingredient": "Oil and Vinegar",
+		"price": 1.00
+		},
+		{
+		"ingredient": "I don't need no stinkin' condiments!",
+		"price": 0
+		}
+	]
+}
