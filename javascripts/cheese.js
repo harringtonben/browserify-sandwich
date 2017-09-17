@@ -2,7 +2,7 @@
 
 const jsonCheese = require("./data");
 
-let cheeses = jsonCheese.gimmeCheeses();
+
 let sandwichCheeses = [];
 
 const getCheeses = function() {
@@ -10,6 +10,8 @@ const getCheeses = function() {
 };
 
 const addCheeseToSandwich = function(event) {
+	let cheeses = jsonCheese.gimmeCheeses();
+	
 	if (event.target.parentNode.childNodes[5].childNodes[3].checked === true) {
 		sandwichCheeses.push(cheeses[0]);
 	} if (event.target.parentNode.childNodes[5].childNodes[7].checked === true) {

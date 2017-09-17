@@ -16,6 +16,11 @@ let sammyCheeses = cheese.getCheeses();
 let sammyVeggies = veggies.getVeggies();
 let sammyCondiments = condiments.getCondiments();
 
+console.log({sammyBreads});
+console.log({sammyMeats});
+console.log({sammyCheeses});
+console.log({sammyVeggies});
+console.log({sammyCondiments});
 
 let sandwichBuild = mySandwich.concat(sammyBreads, sammyMeats, sammyCheeses, sammyVeggies, sammyCondiments);
 console.log({sandwichBuild});

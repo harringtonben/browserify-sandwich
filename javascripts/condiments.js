@@ -2,7 +2,7 @@
 
 const jsonCondiments = require("./data");
 
-let condiments = jsonCondiments.gimmeCondiments();
+
 let sandwichCondiments = [];
 
 const getCondiments = function() {
@@ -10,6 +10,8 @@ const getCondiments = function() {
 };
 
 const addCondimentToSandwich = function(event) {
+	let condiments = jsonCondiments.gimmeCondiments();
+	
 	if (event.target.parentNode.childNodes[9].childNodes[3].checked === true) {
 		sandwichCondiments.push(condiments[0]);
 	} if (event.target.parentNode.childNodes[9].childNodes[7].checked === true) {

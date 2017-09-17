@@ -2,7 +2,7 @@
 
 const jsonMeat = require("./data");
 
-const meats = jsonMeat.gimmeMeats();
+
 let sandwichMeats = [];
 
 const getMeats = function() {
@@ -10,6 +10,8 @@ const getMeats = function() {
 };
 
 const addMeatToSandwich = function(event) {
+	const meats = jsonMeat.gimmeMeats();
+	
 	if (event.target.parentNode.childNodes[3].childNodes[3].checked === true) {
 		sandwichMeats.push(meats[0]);
 	} if (event.target.parentNode.childNodes[3].childNodes[7].checked === true) {
