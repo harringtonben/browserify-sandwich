@@ -1,3 +1,28 @@
 body {
-	background-color: gold;
+	background-color: orange;
+	background-image: url(http://cliparting.com/wp-content/uploads/2016/10/Clip-art-breakfast-sandwich-clipart-kid.png);
+	background-size: 100%;
+	font-family: 'Raleway', sans-serif;
+}
+
+#condiments {
+	margin-bottom: 30px;
+}
+
+#veggies {
+	margin-bottom: 30px;
+}
+
+.output {
+	max-width: 50%;
+	text-align: center;
+	background-color: rgba(255, 255, 255, 0.8);
+	margin: auto;
+
+}
+
+.container {
+	background-color: rgba(255, 255, 255, 0.8);
+	padding: 10px;
+	margin-top: 30px;	
 }
